@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/kinezet.css"> 
+    <title>Hamburger rendelés</title>
+</head>
+<body>
+    <h1>Hamburger rendelés</h1>
+    <div id="hamburgerformdoboz">
+    <form id="hamburgerform">
+        <label>Add meg a neved: <input type="text" name="nev" ></label><br>
+        <label>Add meg a telefonszamod <input type="number" name="telefonszam" ></label><br>
+        <label>Add meg a címed <input type="text" name="cim" ></label><br><br>
+
+
+        <label>Milyen fajta hamburgert szeretne: <select name="fajta">
+            <option value="sima">Sima</option>
+            <option value="baconos">Baconos</option>
+            <option value="sajtos">Sajtos</option>
+        </select></label><br>
+
+
+        <button type="submit" class="btn btn-outline-danger">Új hamburger felvétele</button>
+    </form>
+    <button id="hamburgerek" class="btn btn-primary">Az eddig felvett hamburgerek listája</button>  
+    </div>
+    <div id="hamburgermut"></div>
+    <script src="hamburger.js"></script>
+</body>
+</html>

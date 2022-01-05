@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(128, 0, 28);
+    color:rgb(255, 142, 97);
+}
+
+
+#hamburgerek{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-collapse: collapse;
+}
+
+#hamburgertabla{
+    width: 460px
+}
+
+
+th{
+    background-color:rgb(255, 81, 0);
+    border-bottom: rgb(255, 166, 0) solid 5px;
+    border: rgb(255, 196, 0) solid 1px;
+}
+
+td{
+    border: rgb(255, 196, 0) 4px;
+}
